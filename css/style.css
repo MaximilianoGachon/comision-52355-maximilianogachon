@@ -20,6 +20,8 @@ body {
 .header .header___a--img {
   height: 64px;
   border-radius: 20px;
+  animation-name: logo-animate;
+  animation-duration: 0.5s;
 }
 
 .nav__ul {
@@ -47,6 +49,15 @@ body {
   border-radius: 10px;
 }
 
+.header___a--img:hover {
+  transform: scale(1);
+}
+
+@keyframes logo-animate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .inicio {
   margin-top: 60px;
   height: max-content;
@@ -432,7 +443,7 @@ h2 {
   width: 800px;
 }
 
-.service h3 {
+.service h2 {
   margin-left: 150px;
   margin-top: 60px;
 }
@@ -464,7 +475,7 @@ h2 {
     width: 400px;
     height: 280px;
   }
-  .service h3 {
+  .service h2 {
     width: 400px;
     margin-left: 50px;
   }

@@ -11,20 +11,24 @@
     background-color: $color-secundario;
     border: solid 1px black;
     margin: 0px;
+
     .header___a--img {
         height: 64px;
         border-radius: 20px;
+        animation-name: logo-animate;
+        animation-duration: .5s;
     }
 }
-
 
 .nav__ul {
     display: flex;
     align-items: flex-end;
+
     li {
         list-style: none;
         background-color: $color-terciario;
         border-radius: 10px;
+
         .ul__il--a {
             font-size: 25px;
             color: #FF4C29;
@@ -32,9 +36,8 @@
             text-decoration: none;
         }
     }
-    
-}
 
+}
 
 .btn a {
     text-decoration: none;
@@ -43,4 +46,15 @@
     padding: 2px;
     font-size: 20px;
     border-radius: 10px;
+}
+
+.header___a--img:hover {
+    transform: scale(1);
+}
+
+@keyframes logo-animate {
+   
+    100% {
+        transform: rotate(360deg);
+    }
 }

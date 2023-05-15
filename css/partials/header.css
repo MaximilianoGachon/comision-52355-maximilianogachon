@@ -8,6 +8,8 @@
 .header .header___a--img {
   height: 64px;
   border-radius: 20px;
+  animation-name: logo-animate;
+  animation-duration: 0.5s;
 }
 
 .nav__ul {
@@ -33,6 +35,16 @@
   padding: 2px;
   font-size: 20px;
   border-radius: 10px;
+}
+
+.header___a--img:hover {
+  transform: scale(1);
+}
+
+@keyframes logo-animate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
