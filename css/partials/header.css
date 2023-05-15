@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #082032;
+  border: solid 1px black;
+  margin: 0px;
+}
+.header .header___a--img {
+  height: 64px;
+  border-radius: 20px;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: flex-end;
+}
+.nav__ul li {
+  list-style: none;
+  background-color: #334756;
+  border-radius: 10px;
+}
+.nav__ul li .ul__il--a {
+  font-size: 25px;
+  color: #FF4C29;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #FF4C29;
+  background-color: #334756;
+  padding: 2px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=header.css.map */

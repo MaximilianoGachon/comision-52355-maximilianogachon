@@ -1,0 +1,103 @@
+.amdryzen {
+  display: flex;
+  justify-content: center;
+  width: 1823px;
+  flex-direction: column;
+}
+.amdryzen .amdryzen__section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.amdryzen .amdryzen__section1 .amdryzen__section1--div {
+  width: 500px;
+}
+
+.amdryzen p {
+  color: white;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+.amdryzen__section1 img {
+  width: 1000px;
+}
+
+.amdryzen__section1--div p {
+  color: white;
+}
+
+.amdryzen__section2 div img {
+  width: 600px;
+}
+
+.amdryzen__section2--div {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+}
+.amdryzen__section2--div .amdryzen__section2--ul {
+  width: 700px;
+}
+.amdryzen__section2--div .amdryzen__section2--ul li {
+  color: white;
+}
+
+.amdryzen__section3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.amdryzen__section3 div {
+  width: 500px;
+  color: white;
+}
+.amdryzen__section3 div h3 {
+  color: #FF4C29;
+}
+
+.amdryzen__section3 img {
+  width: 1000px;
+}
+
+@media screen and (max-width: 500px) {
+  .amdryzen {
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile img {
+    width: 400px;
+    height: 280px;
+  }
+  .amdryzen__section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .amdryzen__section1--div {
+    width: 400px;
+  }
+  .amdryzen__section2--div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .amdryzen__section2 div img {
+    width: 400px;
+  }
+  .amdryzen__section2 div ul {
+    text-align: center;
+  }
+  .amdryzen__section3 div {
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=main-amd.css.map */

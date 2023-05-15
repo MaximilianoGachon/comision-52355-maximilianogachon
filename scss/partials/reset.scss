@@ -1,0 +1,12 @@
+@import "variables";
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #FF4C29;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    background-color: $color-primario;
+}

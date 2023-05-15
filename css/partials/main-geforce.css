@@ -1,0 +1,111 @@
+.geforce {
+  margin-top: 60px;
+}
+
+.geforce__section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.geforce__section1 .geforce__section1--div {
+  width: 500px;
+  text-align: start;
+  padding-top: 70px;
+}
+
+.geforce__section1--div p {
+  padding-top: 20px;
+  color: white;
+}
+
+.geforce__section1 img {
+  width: 1000px;
+}
+
+.container {
+  max-width: 1453px;
+}
+.container .row {
+  flex-wrap: nowrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.row p {
+  width: 700px;
+  text-align: left;
+  color: white;
+}
+
+.container h2 {
+  margin-top: 60px;
+}
+
+.geforce__section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.geforce__section2 img {
+  width: 1000px;
+}
+
+.geforce__section2 div h5 {
+  color: white;
+  width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  .geforce__section1 img {
+    width: 420px;
+    height: 280px;
+  }
+  .geforce__section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .geforce__section1--div {
+    width: 300px;
+    padding-top: 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container div img {
+    width: 400px;
+    height: 250px;
+  }
+  .row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container div p {
+    width: 400px;
+  }
+  .geforce__section2 img {
+    width: 420px;
+    height: 280px;
+  }
+  .geforce__section2 {
+    flex-direction: column;
+  }
+  .geforce__section2 div h5 {
+    width: 400px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main-geforce.css.map */

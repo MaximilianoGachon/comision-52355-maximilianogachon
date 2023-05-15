@@ -1,0 +1,85 @@
+.service {
+  width: 1823px;
+}
+
+.service__section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.service__section .service__div {
+  width: 500px;
+}
+
+.service__div p {
+  color: white;
+}
+
+.service img {
+  width: 1000px;
+}
+
+.service__section2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.service__section2 .formulario {
+  width: 500px;
+}
+
+.service__section2 img {
+  width: 800px;
+}
+
+.service h3 {
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+.mb-3 {
+  margin-top: 60px;
+}
+
+.formulario__boton {
+  width: max-content;
+  display: flex;
+}
+.formulario__boton .enviar {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .service {
+    width: 500px;
+  }
+  .service__section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__div {
+    width: 400px;
+  }
+  .service__section img {
+    width: 400px;
+    height: 280px;
+  }
+  .service h3 {
+    width: 400px;
+    margin-left: 50px;
+  }
+  .service__section2 {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .formulario {
+    width: 300px;
+  }
+  .service__section2 img {
+    width: 400px;
+    height: 280px;
+  }
+}
+
+/*# sourceMappingURL=main-service.css.map */

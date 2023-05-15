@@ -1,0 +1,47 @@
+@mixin justify($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+.reddragon {
+    margin-top: 60px;
+}
+
+.reddragon__section h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reddragon__section--img {
+    @include justify(center);
+    flex-direction: row;
+    .reddragon__img {
+        width: 60%;
+    }
+}
+
+
+.reddragon__section2 h3 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.reddragon__section--productos {
+    @include justify(space-around);
+    flex-direction: row;
+    .ul {
+        padding-left: 0;
+        li {
+            color: white;
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .reddragon__section--productos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
